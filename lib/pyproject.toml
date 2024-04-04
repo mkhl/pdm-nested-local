@@ -5,7 +5,9 @@ description = "Default template for PDM package"
 authors = [
     {name = "Martin Kühl", email = "martin.kuehl@posteo.net"},
 ]
-dependencies = []
+dependencies = [
+    "dep @ file:///${PROJECT_ROOT}/../dep",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
